@@ -11,7 +11,6 @@ import com.aventstack.extentreports.reporter.ReporterConfigurable;
 
 import io.reactivex.rxjava3.core.Observer;
 import io.reactivex.rxjava3.disposables.Disposable;
-import tech.grasshopper.reporter.config.ExtentPDFReporterConfig;
 
 public class RestAssuredPDFReporter extends ExtentPDFReporter
 		implements ReportObserver<ReportEntity>, ReporterConfigurable {
@@ -22,8 +21,6 @@ public class RestAssuredPDFReporter extends ExtentPDFReporter
 
 	private Disposable disposable;
 	private Report report;
-
-	private ExtentPDFReporterConfig config = ExtentPDFReporterConfig.builder().reporter(this).build();
 
 	public RestAssuredPDFReporter(String path) {
 		super(new File(path));
