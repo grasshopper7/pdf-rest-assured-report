@@ -5,7 +5,9 @@
 	<groupId>tech.grasshopper</groupId>
 	<artifactId>pdf-rest-assured-report</artifactId>
 	<version>1.0.0</version>
-	<description>Creating Rest Assured Extent reports in PDF format</description>
+	<name>pdf-rest-assured-report</name>
+	<description>Creating Rest Assured Extent reports in PDF format
+	</description>
 
 	<properties>
 		<project.reporting.outputEncoding>UTF-8
