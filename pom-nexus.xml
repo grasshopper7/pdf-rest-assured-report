@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>tech.grasshopper</groupId>
 	<artifactId>pdf-rest-assured-report</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<name>pdf-rest-assured-report</name>
 	<url>https://grasshopper.tech/3791</url>
 	<description>Creating Rest Assured Extent reports in PDF format
@@ -32,7 +32,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
 
-		<pdfextentreporter.version>1.1.0</pdfextentreporter.version>
+		<pdfextentreporter.version>1.2.0</pdfextentreporter.version>
 		<extent.version>5.0.9</extent.version>
 	</properties>
 
@@ -74,7 +74,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.3.2</version>
+				<version>3.8.1</version>
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
