@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>tech.grasshopper</groupId>
 	<artifactId>pdf-rest-assured-report</artifactId>
-	<version>1.1.0</version>
+	<version>1.2.0</version>
 	<name>pdf-rest-assured-report</name>
 	<url>https://grasshopper.tech/3791</url>
 	<description>Creating Rest Assured Extent reports in PDF format

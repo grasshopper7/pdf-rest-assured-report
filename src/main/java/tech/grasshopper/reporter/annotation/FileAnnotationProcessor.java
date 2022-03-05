@@ -52,6 +52,8 @@ public class FileAnnotationProcessor {
 
 				fileAtt.setFile(fs);
 
+				fs.setFileUnicode(f.getLink());
+
 				f.getPage().getAnnotations().add(fileAtt);
 			} catch (Exception e) {
 				logger.log(Level.SEVERE, "Unable to create file annotation link", e);

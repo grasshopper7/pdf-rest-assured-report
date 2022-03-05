@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.2.0 (2022-3-5)
+
+* Added unicode file method
+
 ## 1.1.0 (2022-3-1)
 
 * Updated base pdf version.
