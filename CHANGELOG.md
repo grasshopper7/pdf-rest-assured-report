@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.3.2 (2022-4-26)
+
+* Update pdf extent report version
+
 ## 1.3.1 (2022-4-23)
 
 * Update pdf extent report version
