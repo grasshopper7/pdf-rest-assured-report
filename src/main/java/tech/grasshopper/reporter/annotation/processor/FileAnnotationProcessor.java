@@ -1,4 +1,4 @@
-package tech.grasshopper.reporter.annotation;
+package tech.grasshopper.reporter.annotation.processor;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,6 +17,7 @@ import org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotationFileAttachme
 import lombok.Builder;
 import lombok.Data;
 import lombok.NonNull;
+import tech.grasshopper.reporter.annotation.FileAnnotationStore;
 
 @Data
 @Builder

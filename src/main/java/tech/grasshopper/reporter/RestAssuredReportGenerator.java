@@ -4,8 +4,8 @@ import java.io.File;
 
 import com.aventstack.extentreports.model.Report;
 
-import tech.grasshopper.reporter.annotation.FileAnnotationProcessor;
 import tech.grasshopper.reporter.annotation.FileAnnotationStore;
+import tech.grasshopper.reporter.annotation.processor.FileAnnotationProcessor;
 import tech.grasshopper.reporter.config.ExtentPDFReporterConfig;
 import tech.grasshopper.reporter.dashboard.RestAssuredDashboard;
 import tech.grasshopper.reporter.tests.RestAssuredTestDetails;
